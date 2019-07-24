@@ -43,15 +43,10 @@ public class SceneInputDataManager : MonoBehaviour
         get { return this.mgrState; }
         private set
         {
-            if (this.mgrState != value)
-            {
-                this.previousMgrState = this.mgrState;
-                this.mgrState = value;
-            }
+            this.mgrState = value;
         }
     }
     private ManagerState mgrState = ManagerState.Idle;
-    private ManagerState previousMgrState = ManagerState.Idle;
 
     private Listener listener;
     private Connection listenerConnection;

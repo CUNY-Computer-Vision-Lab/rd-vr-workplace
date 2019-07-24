@@ -100,19 +100,12 @@ public class MyNetworkManager : MonoBehaviour
                 if (myClient == null)
                 {
                     Debug.Log("Sending message from server to client");
-                    Vector3[] points = new[] {      new Vector3(1, 2, 3),
-                                                    new Vector3(4, 5, 6) };
-                   // sendMessage(points);
                 }
                 else
                 {
                     Debug.Log("Sending message from client to server");
-                    Vector3[] points = new[] {  new Vector3(3, 2, 1),
-                                                    new Vector3(6, 5, 4) };
                     PointsMessage message = new PointsMessage();
-                   // message.points = points;
                     myClient.Send(CustomMessage.hiMessage, message);
-
                 }
             }
         }
