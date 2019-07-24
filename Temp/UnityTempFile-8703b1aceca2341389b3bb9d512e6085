@@ -1,0 +1,476 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
+-r:'Assets/Plugins/WebSocket/websocket-sharp.dll'
+-r:'/Users/tyler/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll'
+-r:'/Users/tyler/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll'
+-r:'/Users/tyler/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_30
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_OSX
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/CaptureEngine.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/Connection.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/Connector.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/Listener.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/NetworkComponent.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/PlaybackEngine.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/Interop/Plugin.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/MrvcCapture.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/MrvcManager.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/MrvcPlayer.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/SpatialTranformHelper.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/StateChangedEventArgs.cs'
+'Assets/AddOns/MixedRemoteViewCompositor/Scripts/VideoCompositor.cs'
+'Assets/ButtonTouch.cs'
+'Assets/CustomNetworkManager.cs'
+'Assets/DrawLine.cs'
+'Assets/Example.cs'
+'Assets/FingerDetection.cs'
+'Assets/FlyCamera.cs'
+'Assets/HandEnableDisable_R.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Arm.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Bone.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/CircularObjectBuffer.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Config.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Connection.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Controller.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/CopyFromLeapCExtensions.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/CopyFromOtherExtensions.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/CSharpExtensions.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Device.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/DeviceList.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/DistortionData.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Events.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/FailedDevice.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/FailedDeviceList.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Finger.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Frame.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Hand.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/IController.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Image.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/ImageData.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/LeapC.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/LeapQuaternion.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/LeapTransform.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Logger.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Matrix.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/MemoryManager.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/MessageSeverity.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/PointMapping.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/StructMarshal.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/TransformExtensions.cs'
+'Assets/LeapMotion/Core/EditorResources/Plugins/LeapCSharp/Vector.cs'
+'Assets/LeapMotion/Core/Examples/Example Assets/InertiaPostProcessProvider.cs'
+'Assets/LeapMotion/Core/Examples/Example Assets/ProjectionPostProcessProvider.cs'
+'Assets/LeapMotion/Core/Scripts/Algorithms/SlidingMax.cs'
+'Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedFloat.cs'
+'Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedQuaternion.cs'
+'Assets/LeapMotion/Core/Scripts/Algorithms/SmoothedVector3.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline2.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/CubicHermiteSpline/HermiteSpline3.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Ease.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/IValueProxy.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/TransformTweenBehaviour.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Enums.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/IInterpolator.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/InterpolatorBases.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/MaterialInterpolators.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/TransformInterpolators.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/Interpolators/ValueInterpolators.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/TweenInstance.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Internal/TweenRunner.cs'
+'Assets/LeapMotion/Core/Scripts/Animation/Tween/Tween.cs'
+'Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHand.cs'
+'Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHandEnableDisable.cs'
+'Assets/LeapMotion/Core/Scripts/Attachments/AttachmentHands.cs'
+'Assets/LeapMotion/Core/Scripts/Attachments/AttachmentPointBehaviour.cs'
+'Assets/LeapMotion/Core/Scripts/Attachments/AttachmentPointFlags.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/AutoFind.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/CombinablePropertyAttribute.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/CurveBounds.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/Disable.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/DisableIf.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/EditTimeOnly.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/EnumFlags.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/ImplementsInterface.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/ImplementsTypeNameDropdown.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/Incrementable.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/MaxValue.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/MinMax.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/MinValue.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/OnEditorChange.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/QuickButton.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/RunTimeOnly.cs'
+'Assets/LeapMotion/Core/Scripts/Attributes/Units.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/AssetFolder.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/DelayBuffer.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/DeltaBuffer.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Deque.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Either.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Hash.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/IIndexable.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/IIndexableStruct.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/InspectorName.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Maybe.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/MinHeap.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/MultiTypedList.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/MultiTypedReference.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Pool.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Pose.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/ProduceConsumeBuffer.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlyHashSet.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlyList.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/ReadonlySlice.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/RingBuffer.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/SerializableDictionary.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/SerializableHashSet.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/SerializableType.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Slice.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/StreamingAsset.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/StreamingFolder.cs'
+'Assets/LeapMotion/Core/Scripts/DataStructures/Type.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/AbstractHoldDetector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/Detector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/DetectorLogicGate.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/ExtendedFingerDetector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/FingerDirectionDetector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/PalmDirectionDetector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/PinchDetector.cs'
+'Assets/LeapMotion/Core/Scripts/DetectionUtilities/ProximityDetector.cs'
+'Assets/LeapMotion/Core/Scripts/EditorTools/LeapPreferences.cs'
+'Assets/LeapMotion/Core/Scripts/EditorTools/LeapProjectChecks.cs'
+'Assets/LeapMotion/Core/Scripts/Encoding/VectorHand.cs'
+'Assets/LeapMotion/Core/Scripts/HandModelManager.cs'
+'Assets/LeapMotion/Core/Scripts/HandRepresentation.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/CapsuleHand.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/DebugHand.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/FingerModel.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/HandDrop.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/HandEnableDisable.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/HandModel.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/HandModelBase.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/HandTransitionBehavior.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/RiggedFinger.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/RiggedHand.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/RigidFinger.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/RigidHand.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/SkeletalFinger.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/SkeletalHand.cs'
+'Assets/LeapMotion/Core/Scripts/Hands/TestHandFactory.cs'
+'Assets/LeapMotion/Core/Scripts/LeapImageRetriever.cs'
+'Assets/LeapMotion/Core/Scripts/LeapProfiling.cs'
+'Assets/LeapMotion/Core/Scripts/LeapProvider.cs'
+'Assets/LeapMotion/Core/Scripts/LeapServiceProvider.cs'
+'Assets/LeapMotion/Core/Scripts/LeapTestProvider.cs'
+'Assets/LeapMotion/Core/Scripts/LeapXRServiceProvider.cs'
+'Assets/LeapMotion/Core/Scripts/Query/Query.cs'
+'Assets/LeapMotion/Core/Scripts/Query/QueryCollapseExtensions.cs'
+'Assets/LeapMotion/Core/Scripts/Query/QueryOperatorExtensions.cs'
+'Assets/LeapMotion/Core/Scripts/Query/QueryValueGenerators.cs'
+'Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapCylindricalSpace.cs'
+'Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapRadialSpace.cs'
+'Assets/LeapMotion/Core/Scripts/Space/Definitions/LeapSphericalSpace.cs'
+'Assets/LeapMotion/Core/Scripts/Space/ISpaceComponent.cs'
+'Assets/LeapMotion/Core/Scripts/Space/ITransformer.cs'
+'Assets/LeapMotion/Core/Scripts/Space/LeapSpace.cs'
+'Assets/LeapMotion/Core/Scripts/Space/LeapSpaceAnchor.cs'
+'Assets/LeapMotion/Core/Scripts/Testing/LeapTestBase.cs'
+'Assets/LeapMotion/Core/Scripts/Testing/StationaryTestLeapProvider.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/AnimationCurveUtil.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ArrayPool.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/AssertHelper.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/BitConverterNonAlloc.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/Comment.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ConnectionMonitor.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/DisconnectionNotice.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/EditorResources.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/EnableDepthBuffer.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/Enum.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/EnumEventTable.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ExecutionOrder.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/FpsLabel.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/FrameRateControls.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/GuiRectUtil.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/HandUtils.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/Infix.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/InternalUtility.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/KeyEnableBehaviors.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/KeyEnableGameObjects.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/LeapColor.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/LeapUnityExtensions.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ListAndArrayExtensions.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/PostProcessProvider.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ProfilerSample.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/ProgressBar.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/RuntimeColliderGizmos.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/RuntimeGizmoManager.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/RuntimeGizmoToggle.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/SingleLayer.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/Swizzle.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/TransformHistory.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/TransformUtil.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/Utils.cs'
+'Assets/LeapMotion/Core/Scripts/Utils/XRSupportUtil.cs'
+'Assets/LeapMotion/Core/Scripts/XR/LeapEyeDislocator.cs'
+'Assets/LeapMotion/Core/Scripts/XR/XRHeightOffset.cs'
+'Assets/LeapMotion/Modules/DetectionExamples/Scripts/LeapRTS.cs'
+'Assets/LeapMotion/Modules/DetectionExamples/Scripts/MengerSponge.cs'
+'Assets/LeapMotion/Modules/DetectionExamples/Scripts/PinchDraw.cs'
+'Assets/LeapMotion/Modules/DetectionExamples/Scripts/SpawnBalls.cs'
+'Assets/LineHandler.cs'
+'Assets/MyNetworkManager.cs'
+'Assets/MyNetworkTransform.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPing.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs'
+'Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs'
+'Assets/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs'
+'Assets/Photon Unity Networking/UtilityScripts/CullArea.cs'
+'Assets/Photon Unity Networking/UtilityScripts/InputToEvent.cs'
+'Assets/Photon Unity Networking/UtilityScripts/InRoomChat.cs'
+'Assets/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs'
+'Assets/Photon Unity Networking/UtilityScripts/MoveByKeys.cs'
+'Assets/Photon Unity Networking/UtilityScripts/NetworkCullingHandler.cs'
+'Assets/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs'
+'Assets/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs'
+'Assets/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs'
+'Assets/Photon Unity Networking/UtilityScripts/OnStartDelete.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PickupItem.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PunTeams.cs'
+'Assets/Photon Unity Networking/UtilityScripts/PunTurnManager.cs'
+'Assets/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs'
+'Assets/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs'
+'Assets/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs'
+'Assets/Photon Unity Networking/UtilityScripts/SupportLogger.cs'
+'Assets/Photon Unity Networking/UtilityScripts/TimeKeeper.cs'
+'Assets/Photon Unity Networking/UtilityScripts/UI/ButtonInsideScrollList.cs'
+'Assets/Photon Unity Networking/UtilityScripts/UI/TextButtonTransition.cs'
+'Assets/Photon Unity Networking/UtilityScripts/UI/TextToggleIsOnTransition.cs'
+'Assets/PhotonChatApi/ChannelCreationOptions.cs'
+'Assets/PhotonChatApi/ChannelWellKnownProperties.cs'
+'Assets/PhotonChatApi/ChatChannel.cs'
+'Assets/PhotonChatApi/ChatClient.cs'
+'Assets/PhotonChatApi/ChatDisconnectCause.cs'
+'Assets/PhotonChatApi/ChatEventCode.cs'
+'Assets/PhotonChatApi/ChatOperationCode.cs'
+'Assets/PhotonChatApi/ChatParameterCode.cs'
+'Assets/PhotonChatApi/ChatPeer.cs'
+'Assets/PhotonChatApi/ChatState.cs'
+'Assets/PhotonChatApi/ChatUserStatus.cs'
+'Assets/PhotonChatApi/IChatClientListener.cs'
+'Assets/PhotonConnector.cs'
+'Assets/PhotonRoomJoiner.cs'
+'Assets/PinchFollow_R.cs'
+'Assets/PlayMovieMT.cs'
+'Assets/PlayMovieVP.cs'
+'Assets/Scripts/CursorManager.cs'
+'Assets/Scripts/DataSerializer.cs'
+'Assets/Scripts/FocusPointController.cs'
+'Assets/Scripts/GuiButtons.cs'
+'Assets/Scripts/LogStates.cs'
+'Assets/Scripts/RaycastController.cs'
+'Assets/Scripts/RotateObject.cs'
+'Assets/Scripts/SceneInputDataManager.cs'
+'Assets/StoreHandChildren.cs'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Hub/Editor/2017.4.30f1/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
