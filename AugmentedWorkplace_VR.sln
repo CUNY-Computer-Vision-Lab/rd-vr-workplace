@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentedWorkplace_VR", "AugmentedWorkplace_VR.csproj", "{FED46556-A710-E3B2-FCAA-C840E0A693ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AugmentedWorkplace_VR.Plugins", "AugmentedWorkplace_VR.Plugins.csproj", "{BF1072A5-4C9A-49F6-D3A3-D62CA6F56CBA}"
