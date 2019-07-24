@@ -32,7 +32,7 @@ public class FlyCamera : MonoBehaviour
  
 	void Start ()
 	{
-		Screen.lockCursor = true;
+		Cursor.lockState = CursorLockMode.Locked;
 	}
  
 	void Update ()
@@ -66,7 +66,8 @@ public class FlyCamera : MonoBehaviour
  
 		if (Input.GetKeyDown (KeyCode.Tab))
 		{
-			Screen.lockCursor = (Screen.lockCursor == false) ? true : false;
+            Cursor.lockState = Cursor.lockState == CursorLockMode.Locked ?
+                CursorLockMode.None : CursorLockMode.Locked;
 		}
 	}
 }
